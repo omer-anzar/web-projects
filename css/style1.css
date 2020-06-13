@@ -25,15 +25,15 @@ body{
 	filter: blur(5px) saturate(170%);
 }
 .main{
-	padding: 16px;
 	margin-top: 15em;
 }
 .container{
 	max-width: 1000px;
 	margin: 0 auto;
+	padding: 0 4em;
 }
 .content-section{
-	
+	margin: 1em;
 }
 .header-fixed{
 	overflow: hidden;
@@ -42,10 +42,12 @@ body{
 	position: fixed;
 	background: rgb(0,0,0,0.8);
 	width: 100%;
+	padding-top: 3em;
+	margin: 0 auto;
 }
 .logo{
 	position: fixed;
-	width: 10em;
+	width: 8em;
 	height: auto;
 	border-radius: 20%;
 	top: 10px;
@@ -53,13 +55,19 @@ body{
 	z-index: 100;
 	
 }
-.header-fixed h1{
-	display: inline-block;
-	padding-top: 1.1em;
+.main-header{
+	font-size: 2em;
 }
 .nav a{
 	text-decoration: none;
 	padding: .5em;
+}
+.main-nav{
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255,255,255,.3);
+	margin: 0 auto 2% auto;
 }
 .main-nav a{
 	padding: .3em 2em;
@@ -68,6 +76,7 @@ body{
 	display: inline-block;
 	padding-bottom: 1.1em;
 	padding: 0 5% 2% 5%;
+
 }
 .nav a:hover{ 
 	background: rgba(255,255,255,.3);
